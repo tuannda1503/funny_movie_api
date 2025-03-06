@@ -8,8 +8,6 @@ RUN npm install
 
 COPY . .
 
-RUN docker-compose up -d
-
 RUN npm run build
 
 EXPOSE 3001
